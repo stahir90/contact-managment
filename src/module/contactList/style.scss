@@ -11,6 +11,14 @@
   border: 1px solid #e7e3e3;
 }
 
+.contact-modal-form {
+  div {
+    &.row {
+      margin-top: 12px;
+    }
+  }
+}
+
 .contact-modal-container {
   position: absolute;
   left: 50%;

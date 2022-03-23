@@ -28,7 +28,7 @@ const ContactModal: FC<ContactModalProps> = ({ contact, onCancel, onSave }) => {
       </Modal.Header>
 
       <Modal.Body>
-        <Form>
+        <Form className="contact-modal-form">
           <Row>
             <FormInput
               md={6}
