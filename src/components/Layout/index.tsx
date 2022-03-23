@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import { Container, Col, Image } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import Menu from "../Menu";
 import "./style.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
