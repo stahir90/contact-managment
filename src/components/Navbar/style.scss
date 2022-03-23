@@ -1,0 +1,23 @@
+.navbar {
+  height: 69px;
+  background-color: white;
+}
+
+.menu-container {
+  display: flex;
+  margin-left: 13px;
+  align-items: center;
+}
+
+.menu-image {
+  margin-right: 15px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 22px;
+  color: #4d5664;
+  line-height: 26px;
+}

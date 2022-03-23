@@ -1,0 +1,19 @@
+.search-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    background-color: #ebecee;
+  }
+  button {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 2px;
+    border: 1px solid #49cc99;
+    border-radius: 100px;
+    font-size: 14px;
+    color: #49cc99;
+    text-align: center;
+    line-height: 18px;
+  }
+}

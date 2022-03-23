@@ -1,0 +1,39 @@
+$menuWidth: 181px;
+
+.layout {
+  background-color: #f6f7f8;
+}
+
+#sidebar-wrapper {
+  position: absolute;
+  width: #{$menuWidth};
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+  &.sidebar-close {
+    margin-left: -#{$menuWidth};
+  }
+  &.sidebar-open {
+    margin-left: 0;
+  }
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  height: 100vh;
+  left: 0;
+  margin-left: #{$menuWidth};
+  transition: margin 0.25s ease-out;
+
+  &.sidebar-close {
+    margin-left: 0;
+  }
+
+  &.sidebar-open {
+    margin-left: #{$menuWidth};
+  }
+}

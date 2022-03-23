@@ -1,0 +1,53 @@
+.contact-container {
+  background-color: #f6f7f8;
+  padding: 16px !important;
+}
+
+.contact-list-container {
+  margin-top: 15px;
+  margin-left: 0px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #e7e3e3;
+}
+
+.contact-modal-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-list {
+  background: #fafbfb;
+  border: 1px solid #ece9e9;
+
+  .contact-list-table {
+    background-color: #fafbfb;
+    margin: 0;
+    td {
+      text-align: center;
+      vertical-align: middle;
+      height: 59px;
+      border-right: 1px solid #e7e3e3;
+      border-bottom: 0;
+    }
+    td:last-child {
+      border-right: none;
+    }
+
+    tr {
+      cursor: pointer;
+      border-bottom: 1px solid #e7e3e3;
+    }
+    tr:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .contact-list-image {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+  }
+}
