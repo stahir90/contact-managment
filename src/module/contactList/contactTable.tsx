@@ -9,7 +9,7 @@ type ContactTableProps = {
 };
 
 const ContactTable: FC<ContactTableProps> = ({ contactList, onItemClick }) => (
-  <Table className="contact-list-table">
+  <Table responsive="sm" className="contact-list-table">
     <tbody>
       {contactList?.map((item) => (
         <tr
