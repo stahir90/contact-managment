@@ -1,3 +1,6 @@
+Deployed:
+https://contact-managment.netlify.app/
+
 # Test
 
 yarn test
