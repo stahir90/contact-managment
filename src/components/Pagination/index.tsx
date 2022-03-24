@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Button, Text } from "..";
-import "./style.css";
+import "./style.scss";
 
 type PaginationProps = {
   handleNext?: React.MouseEventHandler<HTMLButtonElement>;

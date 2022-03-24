@@ -1,5 +1,5 @@
 import { FC } from "react";
-import "./style.css";
+import "./style.scss";
 import { Button as BootStrapButton } from "react-bootstrap";
 
 type ButtonProps = {
